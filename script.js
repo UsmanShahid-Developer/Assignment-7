@@ -45,3 +45,25 @@ else{
 // _________________________________________________________________________
 
 
+
+
+// ============Program # 3==============
+// Write a js program to check whether a number is negative,positive or zero.
+
+
+var number1 = prompt("enter a number 1")
+if (number1>0) {
+    console.log("Number is Positive")
+}
+else if(number1<0){
+    console.log("Number is Negative")
+}
+else{
+    console.log("Equal to zero");
+}
+
+
+// _________________________________________________________________________
+// _________________________________________________________________________
+
+
