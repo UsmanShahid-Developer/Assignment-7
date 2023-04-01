@@ -67,3 +67,20 @@ else{
 // _________________________________________________________________________
 
 
+// ============Program # 4==============
+// Write a js program to check whether a number is divisible by 5 or 11 or not.
+
+var number1 = prompt("Enter a Number.")
+if (number1%5==0) {
+    console.log("Your Number is Divisible of 5.")
+}
+else if (number1%11==0){
+console.log("Your Number is Divisible of 11.");
+}
+else {
+    console.log("Not a Divisible of 5 or 11.");
+}
+
+
+// _________________________________________________________________________
+// _________________________________________________________________________
