@@ -136,3 +136,55 @@ else{
 
 // _________________________________________________________________________
 // _________________________________________________________________________
+
+
+
+// ============Program # 12==============
+// Write a js program to input month number and print number of days in that months.
+
+
+
+var monthNumber = prompt("Enter month number 1-12")
+if (monthNumber==1){
+    console.log("There are 31 days in this month(January).");
+}
+else if (monthNumber==2){
+    console.log("There are 28 or 29 days in this month(Feburary).");
+}
+else if (monthNumber==3){
+    console.log("There are 31 days in this month(March).");
+}
+else if (monthNumber==4){
+    console.log("There are 30 days in this month(April).");
+}
+else if (monthNumber==5){
+    console.log("There are 31 days in this month(May).");
+}
+else if (monthNumber==6){
+    console.log("There are 30 days in this month(June).");
+}
+else if (monthNumber==7){
+    console.log("There are 31 days in this month(July).");
+}
+else if (monthNumber==8){
+    console.log("There are 31 days in this month(August).");
+}
+else if (monthNumber==9){
+    console.log("There are 30 days in this month(September).");
+}
+else if (monthNumber==10){
+    console.log("There are 31 days in this month(October).");
+}
+else if (monthNumber==11){
+    console.log("There are 30 days in this month(November).");
+}
+else if (monthNumber==12){
+    console.log("There are 31 days in this month(December).");
+}
+else{
+    console.log("Your value is invalid!");
+}
+
+
+// _________________________________________________________________________
+// _________________________________________________________________________
