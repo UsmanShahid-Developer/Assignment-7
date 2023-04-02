@@ -154,25 +154,40 @@
 // ============Program # 9==============
 // Write a js program to input any character and check weather it is alphabet digit or special character.
 
- var anyChracter = prompt("Enter Any Chracter.")
-if(anyChracter >= "a" && anyChracter <="z" ){
-    console.log("This is an Small Alphabet.");
-} 
-else if(anyChracter >= "A" && anyChracter <="Z" ){
-    console.log("This is an Large Alphabet.");
-} 
-else if(anyChracter >= "1" && anyChracter <="9" ){
-    console.log("This is a digits.");
-} 
-else {
-    console.log("This is special Chracters.");
+//  var anyChracter = prompt("Enter Any Chracter.")
+// if(anyChracter >= "a" && anyChracter <="z" ){
+//     console.log("This is an Small Alphabet.");
+// } 
+// else if(anyChracter >= "A" && anyChracter <="Z" ){
+//     console.log("This is an Large Alphabet.");
+// } 
+// else if(anyChracter >= "1" && anyChracter <="9" ){
+//     console.log("This is a digits.");
+// } 
+// else {
+//     console.log("This is special Chracters.");
+// }
+
+
+
+
+// ______________________________________________________
+// ______________________________________________________
+
+
+
+// ============Program # 10==============
+// Write a js Program to check wheather character is uppercase or lowercse alphabet.
+var alphabets = prompt ("Enter any alphabet")
+if (alphabets >= "a" && alphabets <= "z"){
+    console.log("LowerCase Alphabet.");
 }
-
-
-
-// ______________________________________________________
-// ______________________________________________________
-
+else if (alphabets >= "A" && alphabets <= "Z"){
+    console.log("UpperCase Alphabet.");
+}
+else{
+    console.log("Invalid!");
+}
 
 
 
