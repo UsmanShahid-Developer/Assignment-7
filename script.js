@@ -107,16 +107,16 @@
 // Write a js program to check weather creacter is alphabet or not.
 
 
-var englishAlphabet = prompt("Enter a Alphabet")
-if (englishAlphabet >='a' && englishAlphabet <= 'z' ){
-    console.log("This is small Alphabet");
-}
-else if (englishAlphabet >='A' && englishAlphabet <= 'Z' ){
-    console.log("This is Large Alphabet");
-}
-else {
-    console.log("This is not a alphabet!");
-}
+// var englishAlphabet = prompt("Enter a Alphabet")
+// if (englishAlphabet >='a' && englishAlphabet <= 'z' ){
+//     console.log("This is small Alphabet");
+// }
+// else if (englishAlphabet >='A' && englishAlphabet <= 'Z' ){
+//     console.log("This is Large Alphabet");
+// }
+// else {
+//     console.log("This is not a alphabet!");
+// }
 
 
 // ______________________________________________________
@@ -127,8 +127,29 @@ else {
 // ============Program # 8==============
 // Write a js program to input any alphabet and check weather it is vowel or consonant.
 
-// var anyAlphabet = prompt("Enter any alphabet")
-// if (anyAlphabet== 'a' || anyAlphabet == 'e' || anyAlphabet == 'i' || anyAlphabet == 'o' || anyAlphabet == 'u' || )
+
+var anyAlphabet = prompt("Enter any alphabet")
+if (anyAlphabet== 'a' || anyAlphabet == 'e' || anyAlphabet == 'i' || anyAlphabet == 'o' || anyAlphabet == 'u'  ){
+    console.log("Your alphabet is small vowel.");
+}
+if (anyAlphabet== 'A' || anyAlphabet == 'E' || anyAlphabet == 'I' || anyAlphabet == 'O' || anyAlphabet == 'U'  ){
+    console.log("Your alphabet is large vowel.");
+}
+else if (anyAlphabet >= 'A' && anyAlphabet <='Z'){
+    console.log("Your alphabet is large consonants.");
+}
+else if (anyAlphabet >= 'a' && anyAlphabet <='z'){
+    console.log("Your alphabet is small consonants.");
+}
+else{
+    console.log("sorry invalid!");
+}
+
+
+// ______________________________________________________
+// ______________________________________________________
+
+
 
 
 // ============Program # 11==============
