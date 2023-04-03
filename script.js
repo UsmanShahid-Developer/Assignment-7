@@ -128,26 +128,51 @@
 // Write a js program to input any alphabet and check weather it is vowel or consonant.
 
 
-var anyAlphabet = prompt("Enter any alphabet")
-if (anyAlphabet== 'a' || anyAlphabet == 'e' || anyAlphabet == 'i' || anyAlphabet == 'o' || anyAlphabet == 'u'  ){
-    console.log("Your alphabet is small vowel.");
-}
-if (anyAlphabet== 'A' || anyAlphabet == 'E' || anyAlphabet == 'I' || anyAlphabet == 'O' || anyAlphabet == 'U'  ){
-    console.log("Your alphabet is large vowel.");
-}
-else if (anyAlphabet >= 'A' && anyAlphabet <='Z'){
-    console.log("Your alphabet is large consonants.");
-}
-else if (anyAlphabet >= 'a' && anyAlphabet <='z'){
-    console.log("Your alphabet is small consonants.");
-}
-else{
-    console.log("sorry invalid!");
-}
+// var anyAlphabet = prompt("Enter any alphabet")
+// if (anyAlphabet== 'a' || anyAlphabet == 'e' || anyAlphabet == 'i' || anyAlphabet == 'o' || anyAlphabet == 'u'  ){
+//     console.log("Your alphabet is small vowel.");
+// }
+// if (anyAlphabet== 'A' || anyAlphabet == 'E' || anyAlphabet == 'I' || anyAlphabet == 'O' || anyAlphabet == 'U'  ){
+//     console.log("Your alphabet is large vowel.");
+// }
+// else if (anyAlphabet >= 'A' && anyAlphabet <='Z'){
+//     console.log("Your alphabet is large consonants.");
+// }
+// else if (anyAlphabet >= 'a' && anyAlphabet <='z'){
+//     console.log("Your alphabet is small consonants.");
+// }
+// else{
+//     console.log("sorry invalid!");
+// }
 
 
 // ______________________________________________________
 // ______________________________________________________
+
+
+
+// ============Program # 9==============
+// Write a js program to input any character and check weather it is alphabet digit or special character.
+
+ var anyChracter = prompt("Enter Any Chracter.")
+if(anyChracter >= "a" && anyChracter <="z" ){
+    console.log("This is an Small Alphabet.");
+} 
+else if(anyChracter >= "A" && anyChracter <="Z" ){
+    console.log("This is an Large Alphabet.");
+} 
+else if(anyChracter >= "1" && anyChracter <="9" ){
+    console.log("This is a digits.");
+} 
+else {
+    console.log("This is special Chracters.");
+}
+
+
+
+// ______________________________________________________
+// ______________________________________________________
+
 
 
 
