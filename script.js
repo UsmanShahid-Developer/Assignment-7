@@ -178,19 +178,35 @@
 
 // ============Program # 10==============
 // Write a js Program to check wheather character is uppercase or lowercse alphabet.
-var alphabets = prompt ("Enter any alphabet")
-if (alphabets >= "a" && alphabets <= "z"){
-    console.log("LowerCase Alphabet.");
-}
-else if (alphabets >= "A" && alphabets <= "Z"){
-    console.log("UpperCase Alphabet.");
+// var alphabets = prompt ("Enter any alphabet")
+// if (alphabets >= "a" && alphabets <= "z"){
+//     console.log("LowerCase Alphabet.");
+// }
+// else if (alphabets >= "A" && alphabets <= "Z"){
+//     console.log("UpperCase Alphabet.");
+// }
+// else{
+//     console.log("Invalid!");
+// }
+
+
+// ______________________________________________________
+// ______________________________________________________
+
+
+
+
+// ============Program # 10==============
+// Write a js program to input angles of a triangles and check wheather triangle is valid or not.
+var angle1 =prompt("Enter a angle1 of triangle.")
+var angle2 =prompt("Enter a angle2 of triangle.")
+var angle3 =prompt("Enter a angle3 of triangle.")
+if ( angle1 + angle2 + angle3  === 180){
+    console.log("Valid triangle");
 }
 else{
-    console.log("Invalid!");
+console.log("Not a triangle.");    
 }
-
-
-
 
 // ============Program # 11==============
 // Write a js program to input week number and print week day.
