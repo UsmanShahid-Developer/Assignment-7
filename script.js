@@ -351,21 +351,43 @@
 
 // ============Program # 16==============
 // write a js program to check wheather the triangle is equilateral,isosceles or scalene triangle.
-var side1 = + prompt("Enter first side:")
-var side2 = + prompt("Enter second side:")
-var side3 = + prompt("Enter third side:")
+// var side1 = + prompt("Enter first side:")
+// var side2 = + prompt("Enter second side:")
+// var side3 = + prompt("Enter third side:")
 
-    if (side1 == side2 == side3) {
-        console.log("This is Equilateral triangle.");
-    }
-    else if ((side1 == side2) || (side2 == side3) || (side1 == side3)) {
-        console.log("This is Isosceles triangle.");
-    }
-    else {
-        console.log("This is Scalene triangle.");
-    }
+//     if (side1 == side2 == side3) {
+//         console.log("This is Equilateral triangle.");
+//     }
+//     else if ((side1 == side2) || (side2 == side3) || (side1 == side3)) {
+//         console.log("This is Isosceles triangle.");
+//     }
+//     else {
+//         console.log("This is Scalene triangle.");
+//     }
 
 
 
 // ______________________________________________________
 // ______________________________________________________
+
+
+
+
+
+// ============Program # 18==============
+//write a js program to calculate profit or loss.
+
+
+const costPrice = prompt("Enter the cost price:");
+const sellingPrice = prompt("Enter the selling price:");
+
+const profit = sellingPrice - costPrice;
+const loss = costPrice - sellingPrice;
+
+if (profit > 0) {
+  console.log("You made a profit");
+} else if (loss > 0) {
+  console.log("You incurred a loss");
+} else {
+  console.log("Enter true values.");
+}
