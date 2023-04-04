@@ -111,7 +111,7 @@
 // console.log("Year is leap year.");
 // }
 // else{
-//     console.log("year is not aleap year.");
+//     console.log("year is not a leap year.");
 // }
 
 
@@ -378,16 +378,54 @@
 //write a js program to calculate profit or loss.
 
 
-const costPrice = prompt("Enter the cost price:");
-const sellingPrice = prompt("Enter the selling price:");
+// const costPrice = prompt("Enter the cost price:");
+// const sellingPrice = prompt("Enter the selling price:");
 
-const profit = sellingPrice - costPrice;
-const loss = costPrice - sellingPrice;
+// const profit = sellingPrice - costPrice;
+// const loss = costPrice - sellingPrice;
 
-if (profit > 0) {
-  console.log("You made a profit");
-} else if (loss > 0) {
-  console.log("You incurred a loss");
-} else {
-  console.log("Enter true values.");
+// if (profit > 0) {
+//   console.log("You made a profit");
+// } else if (loss > 0) {
+//   console.log("You incurred a loss");
+// } else {
+//   console.log("Enter true values.");
+// }
+
+
+
+
+// ______________________________________________________
+// ______________________________________________________
+
+
+// ============Program # 21==============
+//Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
+var billAmount=prompt("Enter electricity Units")
+if (billAmount<=50){
+    var amount = billAmount * 0.50;
+    var Amount = amount * (20/100)
+    var totalAmount = amount + Amount;
+    console.log("Your Bill Amount is:" , totalAmount );
 }
+else if (billAmount<=150){
+    var amount = billAmount * 0.75;
+    var Amount = amount * (20/100)
+    var totalAmount = amount + Amount;
+    console.log("Your Bill Amount is:" , totalAmount );
+}
+else if (billAmount<=250){
+    var amount = billAmount * 1.20;
+    var Amount = amount * (20/100)
+    var totalAmount = amount + Amount;
+    console.log("Your Bill Amount is:" , totalAmount );
+}
+else {
+    var amount = billAmount * 1.50;
+    var Amount = amount * (20/100)
+    var totalAmount = amount + Amount;
+    console.log("Your Bill Amount is:" , totalAmount );
+}
+
+// ______________________________________________________
+// ______________________________________________________
