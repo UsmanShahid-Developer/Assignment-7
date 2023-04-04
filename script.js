@@ -333,12 +333,39 @@
 // ============Program # 15==============
 //write a js program to input allsidesof a triangel and check wheather triangle is valid or not
 
-const side1 = parseFloat(prompt("Enter the first side: "));
-const side2 = parseFloat(prompt("Enter the second side: "));
-const side3 = parseFloat(prompt("Enter the third side: "));
+// const side1 = parseFloat(prompt("Enter the first side: "));
+// const side2 = parseFloat(prompt("Enter the second side: "));
+// const side3 = parseFloat(prompt("Enter the third side: "));
 
-if (side1 + side2 > side3 && side2 + side3 > side1 && side1 + side3 > side2) {
-  console.log("The triangle is valid.");
-} else {
-  console.log("The triangle is not valid.");
-}
+// if (side1 + side2 > side3 && side2 + side3 > side1 && side1 + side3 > side2) {
+//   console.log("The triangle is valid.");
+// } else {
+//   console.log("The triangle is not valid.");
+// }
+
+
+
+// ______________________________________________________
+// ______________________________________________________
+
+
+// ============Program # 16==============
+// write a js program to check wheather the triangle is equilateral,isosceles or scalene triangle.
+var side1 = + prompt("Enter first side:")
+var side2 = + prompt("Enter second side:")
+var side3 = + prompt("Enter third side:")
+
+    if (side1 == side2 == side3) {
+        console.log("This is Equilateral triangle.");
+    }
+    else if ((side1 == side2) || (side2 == side3) || (side1 == side3)) {
+        console.log("This is Isosceles triangle.");
+    }
+    else {
+        console.log("This is Scalene triangle.");
+    }
+
+
+
+// ______________________________________________________
+// ______________________________________________________
