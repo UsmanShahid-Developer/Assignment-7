@@ -103,6 +103,24 @@
 // ______________________________________________________
 
 
+
+// ============Program # 6==============
+// Write a js program wheather year is leap year or not.
+var year = prompt("Enter year.")
+if(year % 4==0 ){
+console.log("Year is leap year.");
+}
+else{
+    console.log("year is not aleap year.");
+}
+
+
+
+// ______________________________________________________
+// ______________________________________________________
+
+
+
 // ============Program # 7==============
 // Write a js program to check weather creacter is alphabet or not.
 
@@ -198,15 +216,15 @@
 
 // ============Program # 10==============
 // Write a js program to input angles of a triangles and check wheather triangle is valid or not.
-var angle1 =prompt("Enter a angle1 of triangle.")
-var angle2 =prompt("Enter a angle2 of triangle.")
-var angle3 =prompt("Enter a angle3 of triangle.")
-if ( angle1 + angle2 + angle3  === 180){
-    console.log("Valid triangle");
-}
-else{
-console.log("Not a triangle.");    
-}
+// var angle1 =prompt("Enter a angle1 of triangle.")
+// var angle2 =prompt("Enter a angle2 of triangle.")
+// var angle3 =prompt("Enter a angle3 of triangle.")
+// if ( angle1 + angle2 + angle3  === 180){
+//     console.log("Valid triangle");
+// }
+// else{
+// console.log("Not a triangle.");    
+// }
 
 // ============Program # 11==============
 // Write a js program to input week number and print week day.
